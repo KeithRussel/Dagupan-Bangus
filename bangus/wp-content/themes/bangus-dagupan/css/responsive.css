@@ -1,0 +1,255 @@
+/* ########### RESPONSIVE FOR DAGUPAN BANGUS ##########*/
+
+
+
+/* Large devices (large desktops, 1440px and down) */
+@media (max-width: 1440px) { ... }
+
+@media (min-width: 1170px) {
+    .hidden-data {
+        position: absolute
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1170px) {
+    #dagupan-news {
+        height: 227px;
+    }
+    ul.social-network li {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    #news #dagupan-news, #news-archive #dagupan-news {
+        height: 344px;
+    }
+    
+    #inner-news #dagupan-news p {
+        font-size: 24px;
+    }
+    
+    #dagupan-news>ul>li {
+        padding-bottom: 5px;
+    }
+    
+    #dagupan-news>ul>li>a {
+        font-size: 18px;
+    }
+    
+    .hidden-data {
+        position: sticky;
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 1024px) {
+/*    NAVBAR MENU*/
+    #myNavbar .navbar-nav>li {
+        float: none;
+    }
+    
+    nav.navbar .navbar-header {
+        float: none;
+    }
+    nav.navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-header .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    nav.navbar .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar .navbar-nav {
+        float: none!important;
+        margin: 0 !important;
+        width: 100%;
+	}
+	nav.navbar-nav>li {
+        float: none;
+    }
+    
+    #myNavbar .navbar-nav li a:hover {
+    padding-bottom: 5px;
+    }
+    
+    nav.navbar .collapse.in{
+  		display:block !important;
+	}
+    
+    button.search-btn {
+        position: absolute;
+        right: 100px;
+        top: 20px;
+        width: 50px;
+        height: 40px;
+        float: none;
+        margin-top: 0;
+    }
+    
+/*    OTHER STYLES*/
+    
+    #myNavbar .current-menu-item a {
+        padding-bottom: 15px !important;
+    }
+    
+    .data-content {
+        padding: 12px 15px 10px 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #pride img {
+        margin-top: 45px;
+    }
+    
+    .main-promote h4 {
+        text-align: center;
+    }
+    
+    .main-promote p {
+        text-align: center;
+    }
+    
+    .learn {
+        text-align: center;
+    }
+    
+    ul.social-network li {
+        margin: auto;
+    }
+    
+    .social-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .top-head {
+        text-align: center;
+    }
+    
+    .top-head-right .navbar-nav {
+    text-align: center;
+    float: none;
+    }
+    
+    .top-head-right ul.navbar-nav {
+        column-count: 2;
+    }
+    
+    /*NAVBAR*/
+
+    
+    #myNavbar .navbar-nav>li {
+        float: none;
+    }
+    
+    #myNavbar .navbar-nav {
+        float: left;
+        width: 100%;
+        margin: 0px;
+    }
+    #myNavbar .navbar-nav li a:hover {
+        padding-bottom: 5px;
+    }
+    
+    #myNavbar .current-menu-item a {
+        padding-bottom: 15px !important;
+    }
+    
+    nav.navbar button.search-btn {
+        position: absolute;
+        right: 58px;
+        top: 20px;
+        width: 50px;
+        height: 40px;
+        float: none;
+        margin-top: 0;
+    }
+    
+    .navbar-header img {
+        width: 172px;
+    }
+    
+    .search-form .submit {
+        left: 20px;
+    }
+    
+    .search-form .navbar-form .bangus-search {
+        float: right;
+    }
+    
+    .navbar-header a {
+        padding: 0px 0 0px 20px;
+    }
+    
+    .carousel-inner .item .carousel-caption {
+        width: 65% !important;
+    }
+    
+    .item .carousel-caption-2 {
+        width: 80%;
+    }
+    
+    .carousel-caption h1 {
+        width: 100%;
+    }
+    
+    .carousel-caption-2 h1 {
+    width: 80%;
+    }
+    
+    .item .carousel-caption {
+        padding-bottom: 90px;
+    }
+    
+    .data-content {
+        padding: 12px 15px 10px 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .upcoming-event h1 a.view-all {
+        display: block;
+        float: none;
+        font-size: 16px;
+    }
+    
+    .main-promote h4 {
+        text-align: center;
+    }
+    
+    .learn {
+        text-align: center;
+    }
+    
+    .footer-img {
+        margin-bottom: 20px;
+    }
+    
+    .social-nav {
+        text-align: center;
+    }
+    
+    ul.social-network li {
+        margin: auto;
+    }
+    
+    .hidden-data {
+        position: sticky;
+    }
+}
+
+/*CONTACT PAGE*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    #contact-us .wpcf7-form .form-control {
+        width: 100%;
+    }
+}

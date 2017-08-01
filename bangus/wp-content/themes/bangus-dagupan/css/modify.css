@@ -1,0 +1,19 @@
+/*Modified Css*/
+
+.navbar-header img {
+    height: auto;
+}
+
+data-content {
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 12px 50px 10px 49px;
+    /* width: 255px; */
+    width: 100%;
+    height: 140px;
+}
+
+#search .tint img {
+    height: 100%;
+    width: 100%;
+}

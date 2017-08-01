@@ -1,0 +1,30 @@
+[10-07-2017 01:43:07] [Error] WPRSS:
+The feed URL is not valid! Please recheck: 
+
+
+[28-07-2017 12:03:53] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.dagupan.gov.ph/feed/". cURL error 7: Failed to connect to www.dagupan.gov.ph port 80: Timed out
+
+
+[29-07-2017 03:47:52] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.dagupan.gov.ph/feed/". cURL error 6: Could not resolve host: www.dagupan.gov.ph
+
+
+[29-07-2017 14:15:58] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.dagupan.gov.ph/feed/". cURL error 6: Could not resolve host: www.dagupan.gov.ph
+
+
+[29-07-2017 15:14:45] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.dagupan.gov.ph/feed/". cURL error 6: Could not resolve host: www.dagupan.gov.ph
+
+
+[29-07-2017 23:52:56] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.dagupan.gov.ph/feed/". cURL error 6: Could not resolve host: www.dagupan.gov.ph
+
+
+[30-07-2017 01:15:12] [Error] WPRSS > wprss_detect_exec_timeout:
+The PHP script timed out while importing feed #657
+
+[31-07-2017 20:48:33] [Error] WPRSS > wprss_detect_exec_timeout:
+The PHP script timed out while importing feed #657
+
